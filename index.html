@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PSF - Cine SAS</title>
   <link rel="icon" href="assets/icons/logo_sas.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/normalize.css">
   <link rel="stylesheet" href="CSS/reset.css">
   <link rel="stylesheet" href="CSS/header/logo.css">
   <link rel="stylesheet" href="CSS/header/header.css">
-  <link rel="stylesheet" href="CSS/header/burguer-menu.css">
+  <link rel="stylesheet" href="CSS/header/burger-menu.css">
   <link rel="stylesheet" href="CSS/header/menu/menu.css">
   <link rel="stylesheet" href="CSS/header/menu/menu-link.css">
   <link rel="stylesheet" href="CSS/main/hero/hero.css">
   <link rel="stylesheet" href="CSS/main/hero/hero-title.css">
-  <link rel="stylesheet" href="CSS/main/hero/hero-subtitle.css">
+  <link rel="stylesheet" href="CSS/main/hero/hero-text.css">
   <link rel="stylesheet" href="CSS/main/hero/hero-button.css">
   <link rel="stylesheet" href="CSS/main/movies/movies.css">
   <link rel="stylesheet" href="CSS/main/movies/movies-title.css">
@@ -49,7 +52,7 @@
 </head>
 <body>
   <header class="header">
-    <img class="logo" src="" alt="logo sas">
+    <img class="header__logo" src="assets/icons/logo_sas.png" alt="logo sas">
     <ul class="menu active">
       <li><a class="menu__link" href="#">Inicio</a></li>
       <li><a class="menu__link" href="#">Cartelera</a></li>
@@ -57,13 +60,13 @@
       <li><a class="menu__link" href="#">Promociones</a></li>
       <li><a class="menu__link" href="#">Contacto</a></li>
     </ul>
-    <img class="burguer-menu active" src="" alt="menu mobile">
+    <img class="burger-menu active" src="assets/icons/burguer-menu.png" alt="menu mobile">
   </header>
   <main>
     <section class="hero">
-      <h1 class="hero__title"></h1>
-      <p class="hero__subtitle active"></p>
-      <button class="hero__button"></button>
+      <h1 class="hero__title">DUNE: Segunda Parte</h1>
+      <p class="hero__text active">En esta ocasión, Paul Atreides (Timothée Chalamet) se une a Chani (Zendaya) y a los Fremen para vengarse de los conspiradores que destruyeron a su familia. Sin embargo, se verá obligado a elegir entre el amor de su vida y el destino del universo. <br><br>No te pierdas la continuación de esta emocionante historia que te dejará sin aliento.</p>
+      <button class="hero__button">Compra tus entradas</button>
     </section>
     <section class="movies">
       <h2 class="movies__title">Cartelera 3D</h2>
@@ -154,10 +157,10 @@
     <section class="social-media">
       <p class="social-media__title">Siguenos en nuestras redes sociales</p>
       <ul class="social-media__icons">
-        <li><a class="social-media__link" href="#"><img class="social-media__icon" alt=""></a></li>
-        <li><a class="social-media__link" href="#"><img class="social-media__icon" alt=""></a></li>
-        <li><a class="social-media__link" href="#"><img class="social-media__icon" alt=""></a></li>
-        <li><a class="social-media__link" href="#"><img class="social-media__icon" alt=""></a></li>
+        <li><a class="social-media__link" href="#"><img class="social-media__icon" src="assets/icons/tik-tok.png" alt=""></a></li>
+        <li><a class="social-media__link" href="#"><img class="social-media__icon" src="assets/icons/instagram.png" alt=""></a></li>
+        <li><a class="social-media__link" href="#"><img class="social-media__icon" src="assets/icons/facebook.png" alt=""></a></li>
+        <li><a class="social-media__link" href="#"><img class="social-media__icon" src="assets/icons/x.png" alt=""></a></li>
       </ul>
     </section>
   </footer>
