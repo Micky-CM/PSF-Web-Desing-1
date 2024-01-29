@@ -1,0 +1,11 @@
+.movies__title{
+    width: 474px;
+    color: var(--text-colors-white-title, #FDFDFD);
+text-align: center;
+font-family: Oswald;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}

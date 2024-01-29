@@ -1,0 +1,6 @@
+main{
+    background: var(--color-palette-page-cover, #302e2e);
+mix-blend-mode: color-dodge;
+}
+    
+

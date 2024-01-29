@@ -1,0 +1,13 @@
+.newsletter__title{
+    width: 1355px;
+    color: var(--text-colors-white-title, #FDFDFD);
+text-align: center;
+font-family: Oswald;
+font-size: 72px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+left: 90px;
+
+}

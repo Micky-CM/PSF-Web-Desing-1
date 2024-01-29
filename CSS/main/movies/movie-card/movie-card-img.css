@@ -1,0 +1,7 @@
+.movie-card__img{
+    width: 228px;
+height: 352px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}

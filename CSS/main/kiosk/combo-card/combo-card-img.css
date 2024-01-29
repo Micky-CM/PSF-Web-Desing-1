@@ -1,0 +1,11 @@
+.combo-card__img{
+    width: 264px;
+    height: 272px;
+    flex-shrink: 0;
+    border-radius: 95px;
+  position: relative;
+  left: 75px;
+  top: 10px;
+
+
+}

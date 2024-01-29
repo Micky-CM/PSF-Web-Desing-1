@@ -1,0 +1,12 @@
+.newsletter__text{
+    width: 588px;
+    color: var(--text-colors-white-title, #FDFDFD);    
+font-family: Lato;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 130px;
+left: 180px;
+}
