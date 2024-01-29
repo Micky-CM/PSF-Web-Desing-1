@@ -1,0 +1,14 @@
+.form__imput{
+    width: 314px;
+height: 43px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 2px solid #5CB8E4;
+background: #FBFBFB;
+position: relative;
+left: 190px;
+top: -20px;
+margin-bottom: -15px;
+
+
+}

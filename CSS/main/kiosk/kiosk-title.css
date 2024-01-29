@@ -1,0 +1,14 @@
+.kiosk__title{
+    width: 744px;
+    white-space: nowrap;
+    color: var(--text-colors-white-title, #FDFDFD);
+text-align: center;
+font-family: Oswald;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+left: 210px;
+   
+}

@@ -1,0 +1,19 @@
+.form__label{
+    display: flex;
+    width: 126px;
+    height: 45px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--text-colors-white-title, #FDFDFD);  
+font-family: Lato;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+top: 25px;
+left: 35px;
+
+
+}
