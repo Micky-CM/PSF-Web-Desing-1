@@ -1,0 +1,11 @@
+.hero__text {
+  width: 70%;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+  margin-bottom: 48px;
+}

@@ -1,5 +1,7 @@
 .hero {
-  background-image: url('../../../assets/img/Dune-part2.png');
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../../assets/img/dune-part-two-poster.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
