@@ -1,9 +1,10 @@
 .movies{
-width: 1074px;
-height: 1263px;
-flex-shrink: 0;
-display: flex;
-display: flex;
-justify-content: space-between;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #281a4c;
+  padding: 2rem 8rem 0;
 }

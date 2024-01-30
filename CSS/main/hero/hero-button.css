@@ -4,16 +4,37 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 360px;
   height: auto;
-  padding: 10px;
-  background: none;
-  border: 6px solid #8758FF;
+  padding: 1rem;
   border-radius: 20px;
   font-family: 'Lato', sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+
   color: #FDFDFD;
+}
+.hero__button:hover {
+  cursor: pointer;
+  width: 36rem;
+  background-color: #8758FF;
+  font-weight: bold;
+}
+
+@media screen and (min-width:0) {
+  .hero__button {
+    width: 24rem;
+    background-color: #8758FF;
+    font-weight: bolder;
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width:750px) {
+  .hero__button {
+    width: 34rem;
+    background: none;
+    border: 6px solid #8758FF;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 }

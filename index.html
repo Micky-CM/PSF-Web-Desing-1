@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PSF - Cine SAS</title>
-  <link rel="icon" href="assets/icons/logo_sas.png">
+  <link rel="icon" href="assets/icons/SAS-logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
@@ -35,13 +35,13 @@
   <link rel="stylesheet" href="CSS/main/kiosk/combo-card/combo-card-button.css">
   <link rel="stylesheet" href="CSS/main/newsletter/newsletter.css">
   <link rel="stylesheet" href="CSS/main/newsletter/newsletter-title.css">
-  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-left/newsletter-left.css">
-  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-left/newsletter-text.css">
-  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-right/newsletter-right.css">
-  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-right/newsletter-form.css">
-  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-right/newsletter-label.css">
-  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-right/newsletter-input.css">
-  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-right/newsletter-button.css">
+  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-invitation.css">
+  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-text.css">
+  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-form/newsletter-form.css">
+  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-form/newsletter-item.css">
+  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-form/newsletter-label.css">
+  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-form/newsletter-input.css">
+  <link rel="stylesheet" href="CSS/main/newsletter/newsletter-form/newsletter-button.css">
   <link rel="stylesheet" href="CSS/footer/footer.css">
   <link rel="stylesheet" href="CSS/footer/footer-text.css">
   <link rel="stylesheet" href="CSS/footer/social-media/social-media.css">
@@ -52,20 +52,20 @@
 </head>
 <body>
   <header class="header">
-    <img class="header__logo" src="assets/icons/logo_sas.png" alt="logo sas">
-    <ul class="menu active">
+    <img class="header__logo" src="assets/icons/SAS-logo.png" alt="logo sas">
+    <ul class="menu">
       <li><a class="menu__link" href="#">Inicio</a></li>
       <li><a class="menu__link" href="#">Cartelera</a></li>
       <li><a class="menu__link" href="#">Combos</a></li>
       <li><a class="menu__link" href="#">Promociones</a></li>
       <li><a class="menu__link" href="#">Contacto</a></li>
     </ul>
-    <img class="burger-menu active" src="assets/icons/burguer-menu.png" alt="menu mobile">
+    <img class="burger-menu" src="assets/icons/burguer-menu.png" alt="menu mobile">
   </header>
   <main>
     <section class="hero">
       <h1 class="hero__title">DUNE: Segunda Parte</h1>
-      <p class="hero__text active">En esta ocasión, Paul Atreides (Timothée Chalamet) se une a Chani (Zendaya) y a los Fremen para vengarse de los conspiradores que destruyeron a su familia. Sin embargo, se verá obligado a elegir entre el amor de su vida y el destino del universo. <br><br>No te pierdas la continuación de esta emocionante historia que te dejará sin aliento.</p>
+      <p class="hero__text">En esta ocasión, Paul Atreides (Timothée Chalamet) se une a Chani (Zendaya) y a los Fremen para vengarse de los conspiradores que destruyeron a su familia. Sin embargo, se verá obligado a elegir entre el amor de su vida y el destino del universo. <br><br>No te pierdas la continuación de esta emocionante historia que te dejará sin aliento.</p>
       <button class="hero__button">Compra tus entradas</button>
     </section>
     <section class="movies">
@@ -76,7 +76,6 @@
           <h3 class="movie-card__title">Deadpool 3</h3>
           <button class="movie-card__button">Compra aquí</button>
         </article>
-      
         <article class="movie-card">
           <img class="movie-card__img" src="assets/img/godzilla-kingkong.png" alt="">
           <h3 class="movie-card__title">Godzilla y Kong</h3>
@@ -133,21 +132,25 @@
           <button class="combo-card__button">Comprar</button>
         </article>
       </section>
-    </section> 
+    </section>
     <section class="newsletter">
-      <h2 class="newsletter__title">Suscribete a nuestra Newsletter</h2>
-      <div class="newsletter__left">
+      <h2 class="newsletter__title">Suscribete a nuestra Lista de Email</h2>
+      <div class="newsletter__invitation">
         <p class="newsletter__text">Mantente al tanto de los estrenos más esperados, descubre contenido detrás de cámaras y recibe ofertas especiales que harán que cada experiencia en nuestro cine sea aún más memorable. ¿Te unes a nosotros? 🍿✨<br><br>
         Suscríbete ahora y sé el primero en enterarte de todo lo que sucede en el universo cinematográfico. ¡No te pierdas ni un fotograma! 🚀🎥</p>
-      </div>
-      <div class="newsletter__right">
         <form class="newsletter__form" action="">
-          <label class="form__label" for="">Nombres:</label>
-          <input class="form__imput" type="text">
-          <label class="form__label" for="">Nombres:</label>
-          <input class="form__imput" type="text">
-          <label class="form__label" for="">Email:</label>
-          <input class="form__imput" type="email">
+          <div class="form__item">
+            <label class="form__label" for="">Nombres:</label>
+            <input class="form__input" type="text">
+          </div>
+          <div class="form__item">
+            <label class="form__label" for="">Apellidos:</label>
+            <input class="form__input" type="text">
+          </div>
+          <div class="form__item">
+            <label class="form__label" for="">Email:</label>
+          <input class="form__input" type="email">
+          </div>
           <button class="form__button">Suscribirme</button>
         </form>
       </div>

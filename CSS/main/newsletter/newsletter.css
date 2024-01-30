@@ -1,0 +1,9 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #281a4c;
+  padding: 4rem 8rem;
+}

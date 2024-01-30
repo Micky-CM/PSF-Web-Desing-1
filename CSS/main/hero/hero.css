@@ -1,11 +1,23 @@
 .hero {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background-image: url('../../../assets/img/dune-part-two-poster.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 640px;
   box-sizing: border-box;
-  padding: 120px;
+}
+
+@media screen and (min-width:0) {
+  .hero {
+    height: 50rem;
+    padding: 2rem 6rem;
+  }
+}
+@media screen and (min-width:750px) {
+  .hero {
+    height: 64rem;
+    padding: 10rem;
+  }
 }

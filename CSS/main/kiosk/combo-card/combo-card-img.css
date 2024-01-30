@@ -1,11 +1,12 @@
-.combo-card__img{
-    width: 264px;
-    height: 272px;
-    flex-shrink: 0;
-    border-radius: 95px;
-  position: relative;
-  left: 75px;
-  top: 10px;
-
-
+.combo-card__img {
+  width: 80%;
+  height: 26rem;
+  box-sizing: border-box;
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+.combo-card__img:hover {
+  cursor: pointer;
+  width: 84%;
+  margin-bottom: 0.5rem;
 }
