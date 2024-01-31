@@ -1,0 +1,15 @@
+.address__info {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:0) {
+  .address__info {
+    align-items: stretch;
+  }
+}
+@media screen and (min-width:750px) {
+  .address__info {
+    align-items: flex-start;
+  }
+}

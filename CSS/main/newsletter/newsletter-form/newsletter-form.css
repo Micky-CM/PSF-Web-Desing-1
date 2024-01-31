@@ -11,7 +11,7 @@
 @media screen and (min-width:0) {
   .newsletter__form {
     width: 90%;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
 }
 @media screen and (min-width:750px) {
