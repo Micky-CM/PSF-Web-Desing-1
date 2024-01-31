@@ -6,18 +6,17 @@
   height: auto;
   border-radius: 28px;
   border: 6px solid #8758FF;
-  padding: 2rem;
 }
 
 @media screen and (min-width:0) {
   .newsletter__form {
-    width: 80%;
-    font-size: 1.8rem;
+    width: 90%;
+    padding: 1rem 1.5rem;
   }
 }
 @media screen and (min-width:750px) {
   .newsletter__form {
-    width: 40rem;
-    font-size: 2rem;
+    width: 46rem;
+    padding: 3rem 4rem;
   }
 }

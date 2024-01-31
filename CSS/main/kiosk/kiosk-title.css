@@ -10,7 +10,7 @@
 
 @media screen and (min-width:0) {
     .kiosk__title {
-      font-size: 4.6rem;
+      font-size: 4rem;
     }
   }
   @media screen and (min-width:750px) {

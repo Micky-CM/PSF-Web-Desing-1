@@ -11,13 +11,13 @@
 
 @media screen and (min-width:0) {
   .hero {
-    height: 50rem;
+    height: 40rem;
     padding: 2rem 6rem;
   }
 }
 @media screen and (min-width:750px) {
   .hero {
-    height: 64rem;
+    height: 60rem;
     padding: 10rem;
   }
 }
